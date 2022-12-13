@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 5em;
+  padding-top: 2em;
+}
+.App button{
+  font-size: 1.5em;
+  font-weight: bold;
+  background: none;
+  border: 1px solid;
+  padding: 0.3em 1.5em;
+  border-radius: 1.5em;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.App button:hover{
+  background: black;
+  color: white;
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+}
+.formData{
+  display: flex;
+  flex-direction: column;
+}
+.form button{
+  font-size: 12px !important;
+  font-weight: 200 !important;
+  padding: 0.5em !important;
+  border-radius: 1em !important;
+  margin-left: 0.3em;
+}
+
+.form{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}

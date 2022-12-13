@@ -1,0 +1,54 @@
+.TableComponent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tableTitle{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 2em;
+}
+.table{
+    margin-bottom: 2em;
+}
+.table,
+.tableTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.data{
+    width: 15%;
+}
+.dataD{
+    width: 55%;
+}
+
+.pag{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+
+}
+
+.pag button{
+    font-size: 12px !important;
+    font-weight: 200 !important;
+    padding: 0.5em !important;
+    border-radius: 50% !important;
+    margin-right: 0.3em;
+    min-width: 30px !important;
+}
+
+.actbtn{
+    background: black !important;
+    color: white;
+}
